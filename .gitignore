@@ -1,0 +1,50 @@
+# LaTeX temporary files
+*.aux
+*.log
+*.toc
+*.idx
+*.ind
+*.ilg
+*.out
+*.nav
+*.snm
+*.vrb
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Generated PDFs (except examples)
+*.pdf
+!examples/*.pdf
+
+# Generated LaTeX files (except templates)
+*.tex
+!templates/*.tex
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
+.*.swp
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Test outputs
+test_*.tex
+test_*.pdf
