@@ -6,7 +6,7 @@ Transform your Cooklang recipes into beautiful PDF cookbooks with this comprehen
 [![Cooklang](https://img.shields.io/badge/cooklang-compatible-green.svg)](https://cooklang.org)
 [![LaTeX](https://img.shields.io/badge/LaTeX-required-orange.svg)](https://www.latex-project.org/)
 
-Download sample cookbook [here](./examples/my_cookbook.pdf).
+Download sample cookbook [here](../examples/my_cookbook.pdf).
 
 ## ✨ Features
 
