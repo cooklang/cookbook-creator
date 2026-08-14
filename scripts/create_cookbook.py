@@ -352,7 +352,8 @@ class CookbookGenerator:
                         print(f"    Including image: {image_path.name}")
                         # Use center environment - grffile package handles spaces
                         f.write("\\begin{center}\n")
-                        image_path_str = str(image_path.absolute())
+                        # Windows style paths will not compile with pdflatex, so we enforce Linux style
+                        image_path_str = str(Path(image_path.absolute()).as_posix())
                         f.write(f"\\includegraphics[width=0.8\\textwidth]{{{image_path_str}}}\n")
                         f.write("\\end{center}\n")
                         f.write("\\vspace{0.5cm}\n\n")
