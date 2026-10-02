@@ -133,8 +133,8 @@ cook recipe -f latex "Pasta:8" -o pasta_8.tex   # 8 servings
 
 ## 📚 Documentation
 
-- [Full tutorial on cooklang.org](https://cooklang.org/use-cases/cookbook-creation)
-- [CookCLI documentation](https://cooklang.org/docs/cli/)
+- [Full tutorial on cooklang.org](https://cooklang.org/guides/cookbook-creation/)
+- [CookCLI documentation](https://cooklang.org/cli/)
 - [Cooklang specification](https://cooklang.org/docs/spec/)
 
 ## 🤝 Contributing
